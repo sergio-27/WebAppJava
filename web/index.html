@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- vinculamos el html con una hoja de estilos online-->
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Gugi', cursive;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <label for="libros">Libros Disponibles</label>
+    <select id="libros" onchange="mostrarDescripcion()">
+        <option selected>Seleccionar</option>
+        <option>Libro 1</option>
+        <option>Libro 2</option>
+        <option>Libro 3</option>
+        <option>Libro 4</option>
+    </select>
+</form>
+<div id="desc">
+
+</div>
+<script src="js/programa.js"></script>
+</body>
+</html>
